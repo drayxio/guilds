@@ -1,7 +1,7 @@
 from requests import get
 
 open("some.txt", mode="w")
-file = open(file="some.txt", mode="a", encoding="UTF-8")
+file = open(file="guilds.txt", mode="a", encoding="UTF-8")
 
 account_type = input("account type (bot, user) > ")
 token = input("token > ")
