@@ -26,7 +26,7 @@ except:
                 " " + invite
                 break
             except:
-                pass
+                invite = None
         except:
             invite = None
 
