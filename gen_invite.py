@@ -5,7 +5,7 @@ token = input("token > ")
 guild_id = input("guild id > ")
 
 
-print("L'invitations est entrain de se générer...")
+print("L'invitation est entrain de se générer...")
 
 if account_type == "bot":
     auth = {"authorization": "Bot "+token}
