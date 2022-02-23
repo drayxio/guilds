@@ -16,8 +16,6 @@ else:
 
 url = "https://discord.com/api"
 
-me = get(f"{url}/users/@me", headers=auth).json()
-
 try: invite = get(f"{url}/guilds/{guild_id}/invites", headers=auth).json()[0].get("code")
 except:
 
