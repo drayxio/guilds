@@ -29,9 +29,8 @@ except:
                 invite = None
         except:
             invite = None
-
-    if invite:
-
-        input("Invite code generated - " + str(invite))
-    else:
-        input("Can't have an invite code :'(")
+            
+if invite:
+    input("Invite code generated - " + str(invite))
+else:
+    input("Can't have an invite code :'(")
